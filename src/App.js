@@ -1,8 +1,7 @@
 import React from "react";
-
-var adafruitIo = require("adafruit-io");
-
 import "./style.css";
+var mqtt = require('mqtt');
+
 
 export default function App() {
   return (
@@ -12,3 +11,4 @@ export default function App() {
     </div>
   );
 }
+
